@@ -11,7 +11,7 @@
     "packages/*"
   ],
   "scripts": {
-    "run:server": "yarn workspaces run dev"
+    "run:server": "yarn workspace laboratorier run dev"
   },
   "devDependencies": {
     "quick-d-cli": "^1.3.2"
