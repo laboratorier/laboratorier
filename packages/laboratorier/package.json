@@ -4,8 +4,8 @@
   "description": "A simple laboratory management system",
   "main": "src/app.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/app.js",
-    "pro": "cross-env NODE_ENV=production  node dist/app.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon --exec babel-node src/app.js",
+    "start:pro": "cross-env NODE_ENV=production  node dist/app.js",
     "build": "babel ./src -d ./dist"
   },
   "author": "yijie",
